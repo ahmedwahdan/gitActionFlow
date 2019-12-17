@@ -14,6 +14,6 @@ jobs:
     - name: LS
       run: ls -ll
     - name: make
-      run: gcc main.c
+      run: gcc main.c -o opt
     - name: execute
-      run: ./main
+      run: ./opt
