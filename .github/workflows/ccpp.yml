@@ -9,6 +9,8 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
+    - name: PWD
+      run: echo $PWD
     - name: make
       run: gcc ../../main.c
     - name: execute
