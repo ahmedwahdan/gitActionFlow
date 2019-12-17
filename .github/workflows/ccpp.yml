@@ -11,4 +11,5 @@ jobs:
     - uses: actions/checkout@v1
     - name: make
       run: gcc ../../main.c
+    - name: execute
       run: ./main
